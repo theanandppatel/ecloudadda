@@ -38,7 +38,7 @@ const MyOrder = ({cart,subTotal,order}) => {
               })}
               
               
-              <div className="mt-10">
+              <div className="mt-10" >
               <div className="title-font font-medium text-xl text-gray-900">Delivery Charge:
               {order.bcharge < 1000 && order.bcharge != 0 ? " ₹40" : " FREE"}</div>
               
