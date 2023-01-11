@@ -52,6 +52,7 @@ const handler = async (req, res) => {
                 }
                 else {
                     res.status(200).json({ success:true, message: "Reset link successfully sent to your email" })
+                    return
                 }
             })
             }else{
